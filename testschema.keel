@@ -1,0 +1,6 @@
+model Person {
+    fields {
+        email Text @unique
+        phone Text
+    }
+}
