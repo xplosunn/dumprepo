@@ -2,6 +2,6 @@ model Person {
     fields {
         email Text @unique
         firstName Text
-        nickname Text?
+        nickname InvalidTypeIJustMadeUp?
     }
 }
